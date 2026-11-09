@@ -1,0 +1,1 @@
+function o(n,r){const t=BigInt(n.net),u=BigInt(n.quantity),e=BigInt(n.returned);return Number(t*(e+BigInt(r))/u-t*e/u)}function i(n){var r;return((r=n.items)==null?void 0:r.map(t=>`${t.product_name} × ${t.quantity}${t.unit??""}`).join(" · "))||"상품 정보 확인"}export{i as o,o as r};
